@@ -1,0 +1,378 @@
+/*!
+ * Start Bootstrap - SB Admin (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Global Styles */
+
+body {
+    margin-top: 100px;
+    background-color: #e8eef5;
+}
+
+@media(min-width:768px) {
+    body {
+        margin-top: 50px;
+    }
+}
+
+#wrapper {
+    padding-left: 0;
+}
+
+#page-wrapper {
+    width: 100%;
+    padding: 0;
+    background-color: #fff;
+}
+
+.huge {
+    font-size: 50px;
+    line-height: normal;
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 225px;
+    }
+
+    #page-wrapper {
+        padding: 10px;
+    }
+}
+
+/* Top Navigation */
+
+.top-nav {
+    padding: 0 15px;
+}
+
+.top-nav>li {
+    display: inline-block;
+    float: left;
+}
+
+.top-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.top-nav>li>a:hover,
+.top-nav>li>a:focus,
+.top-nav>.open>a,
+.top-nav>.open>a:hover,
+.top-nav>.open>a:focus {
+    color: #ffffff;
+    background-color: #000;
+}
+
+.top-nav>.open>.dropdown-menu {
+    float: left;
+    position: absolute;
+    margin-top: 0;
+    border: 1px solid rgba(0,0,0,.15);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: #fff;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+.top-nav>.open>.dropdown-menu>li>a {
+    white-space: normal;
+}
+
+ul.message-dropdown {
+    padding: 0;
+    max-height: 250px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+li.message-preview {
+    width: 275px;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+}
+
+li.message-preview>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+li.message-footer {
+    margin: 5px 0;
+}
+
+ul.alert-dropdown {
+    width: 200px;
+}
+
+/* Side Navigation */
+
+@media(min-width:768px) {
+    .side-nav {
+        position: fixed;
+        top: 51px;
+        left: 225px;
+        width: 225px;
+        margin-left: -225px;
+        border: none;
+        border-radius: 0;
+        overflow-y: auto;
+        background-color: #334c71;
+        bottom: 0;
+        overflow-x: hidden;
+        padding-bottom: 40px;
+    }
+
+    .side-nav>li>a {
+        width: 225px;
+    }
+
+    .side-nav li a:hover,
+    .side-nav li a:focus {
+        outline: none;
+        background-color: rgba(62, 214, 249, 0.45) !important;
+        font-size: 18px;
+        color:white;
+    }
+}
+
+.side-nav>li>ul {
+    padding: 0;
+}
+
+.side-nav>li>ul>li>a {
+    display: block;
+    padding: 10px 15px 10px 38px;
+    text-decoration: none;
+    color: white;
+}
+
+.side-nav>li>ul>li>a:hover {
+        color: #ffffff;
+}
+
+/* Flot Chart Containers */
+
+.flot-chart {
+    display: block;
+    height: 400px;
+}
+
+.flot-chart-content {
+    width: 100%;
+    height: 100%;
+}
+
+/* Custom Colored Panels */
+
+.huge {
+    font-size: 40px;
+}
+
+.panel-green {
+    border-color: #5cb85c;
+}
+
+.panel-green > .panel-heading {
+    border-color: #5cb85c;
+    color: #fff;
+    background-color: #5cb85c;
+}
+
+.panel-green > a {
+    color: #5cb85c;
+}
+
+.panel-green > a:hover {
+    color: #3d8b3d;
+}
+
+.panel-red {
+    border-color: #d9534f;
+}
+
+.panel-red > .panel-heading {
+    border-color: #d9534f;
+    color: #fff;
+    background-color: #d9534f;
+}
+
+.panel-red > a {
+    color: #d9534f;
+}
+
+.panel-red > a:hover {
+    color: #b52b27;
+}
+
+.panel-yellow {
+    border-color: #f0ad4e;
+}
+
+.panel-yellow > .panel-heading {
+    border-color: #f0ad4e;
+    color: #fff;
+    background-color: #f0ad4e;
+}
+
+.panel-yellow > a {
+    color: #f0ad4e;
+}
+
+.panel-yellow > a:hover {
+    color: #df8a13;
+}
+
+.navbar-default{
+    background-color: #1e364e;
+ 
+}
+.navbar.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+       background-color: rgba(126, 189, 204, 0.45) !important;
+    
+       color: white;
+}
+.navbar .navbar-brand{
+     color: #6197ce;
+
+}
+.navbar .navbar-brand:hover{
+       color: #6197ce;
+
+    
+}
+.navbar-default .navbar-nav>li>a{
+    color:#d0d0d0;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: white;
+    
+}
+.side-nav>li>ul>li>a{
+    background-color: #05121f;
+   border-bottom: 1px solid #225771;
+}
+.nav>li>a{
+    border-bottom: 1px solid #5e899a;
+}
+.nav>li>a:hover{
+   background-color: rgba(62, 214, 249, 0.45) !important;
+}
+.nav>li>a:focus{
+   background-color: rgba(62, 214, 249, 0.45) !important;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    border: none;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: rgba(62, 214, 249, 0.45) !important;
+}
+
+.panel-widget {
+	padding: 0;
+	position: relative;
+    margin: 10px;
+   
+}
+
+.panel-widget .panel-footer {
+	border: 0;
+	text-align: center;
+}
+
+
+.panel-widget .panel-footer a {
+	color: #999;
+}
+
+.panel-widget .panel-footer a:hover {
+	color: #666;
+	text-decoration: none;
+}
+
+
+
+
+
+.widget-left {
+	height: 80px;
+	padding-top: 15px;
+	text-align: center;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.widget-right {
+	text-align: left;
+	line-height: 1.6em;
+	margin: 0px;
+	padding: 15px;
+	height: 80px;
+	color: #999;
+	font-weight: 300;
+	background: #fff;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+@media (max-width: 768px) {
+	.widget-right {
+	width: 100%;
+	margin: 0;
+	text-align: center;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	}
+}
+
+@media (max-width: 768px) {
+	.widget-left {
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	}
+}
+
+.widget-right .text-muted {
+	color: #9fadbb;
+    
+}
+
+.widget-right .large {
+	color: #5f6468;
+}
+
+.panel-blue .widget-left { background: #4185b9; color: #fff; }
+.panel-teal .widget-left { background: rgb(25, 187, 170); color: #fff; }
+.panel-orange .widget-left { background: #f7b168; color: #fff; }
+.panel-red1 .widget-left { background: #f9697b; color: #fff; }
+
+.panel-widget {
+	background: #fff;
+}
+
+.large {
+	font-size: 3em;
+}
+
+
+.btn-default{
+    background-color: #557f9a;
+  color: white;
+  float:right;
+}
+
+.btn-default:hover{
+    color: white;
+    background-color: rgba(18, 92, 109, 0.66) !important;
+}
+  
